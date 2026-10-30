@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "mode": "local",
+    "local_folders": [
+      "/Users/zty/Desktop/worktrail/examples/halfyear-demo/materials"
+    ]
+  },
+  "outputs": [
+    "summary",
+    "report",
+    "evidence",
+    "docx",
+    "pdf",
+    "pptx",
+    "self-eval",
+    "speaker-notes"
+  ]
+}

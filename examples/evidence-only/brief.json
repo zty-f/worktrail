@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "person": {
+    "name": "林知夏",
+    "role": "产品经理"
+  },
+  "report_type": "halfyear",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-06-30",
+    "label": "2026年上半年"
+  },
+  "minutes": 5,
+  "disclosure": "轻量模拟案例。人物、项目、数据均为虚构；只演示所选产出，不使用真实企业资料。",
+  "projects": [
+    {
+      "id": "P1",
+      "name": "售后工单改版",
+      "rubric": [
+        "R1",
+        "R2"
+      ]
+    }
+  ],
+  "rubric": [
+    {
+      "id": "R1",
+      "name": "业务结果"
+    },
+    {
+      "id": "R2",
+      "name": "协作与交付"
+    }
+  ]
+}

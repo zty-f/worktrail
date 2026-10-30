@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "source_mode": "local",
+  "reports": [
+    {
+      "provider": "local",
+      "at": "2026-10-30T09:46:44.837414+00:00",
+      "root": "/Users/zty/Desktop/worktrail/examples/evidence-only/materials",
+      "read": [
+        {
+          "file": "01_分工.md",
+          "source_id": "S3dd4f6347e81",
+          "version": "64b7df2b7ad8ea41e9ebd39448c9fac96d6dc063d9d6ef140aeea3c67d4746d7",
+          "changed": true
+        },
+        {
+          "file": "02_交付.md",
+          "source_id": "S3f2d51393abe",
+          "version": "0b2ce7a8a5776720233d52c72e9e5eea1626cce13568fdca30917581dbe7cc7f",
+          "changed": true
+        },
+        {
+          "file": "03_指标.md",
+          "source_id": "S30fd29694516",
+          "version": "e527084a680dc7a1ca04c79526a8bb79934dc65fe7be5e73388f7e9df098d575",
+          "changed": true
+        }
+      ],
+      "failed": [],
+      "unchanged": 0,
+      "complete_for_selected_folder": true
+    }
+  ],
+  "next": "采集不会自动理解原文。由Agent读取state/evidence-packet.json，核对后import-facts，再build；只生成所选产出。"
+}

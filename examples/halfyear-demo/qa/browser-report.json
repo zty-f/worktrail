@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "checks": 24,
+  "passed": [
+    "all analyzed facts displayed",
+    "one resolved and one unresolved conflict visible",
+    "desktop fits viewport",
+    "self filter excludes team",
+    "filter accessible state",
+    "unfinished filter separates plans and in-progress",
+    "search narrows evidence",
+    "keyboard expands exact quote",
+    "quote includes named attribution",
+    "source snapshot opens",
+    "source page contains exact location",
+    "following evidence link reveals hidden team fact",
+    "same evidence link reveals target after refiltering",
+    "download works 工作总结.md",
+    "download works 汇报底稿.md",
+    "download works 汇报文档.docx",
+    "download works 汇报演示.pptx",
+    "download works 汇报文档.pdf",
+    "download works 绩效自评草稿.txt",
+    "download works 逐页讲述提示.txt",
+    "mobile fits actual 390px device",
+    "mobile filtering works",
+    "offline file works",
+    "no runtime errors"
+  ],
+  "errors": [],
+  "browser": "156.0.8078.76"
+}

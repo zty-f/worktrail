@@ -1,0 +1,16 @@
+{
+  "providers": [
+    {
+      "provider": "feishu",
+      "documents": [{"title":"替换为所选项目文档","url":"https://your-tenant.feishu.cn/docx/REPLACE_WITH_REAL_TOKEN"}]
+    },
+    {
+      "provider": "dingtalk",
+      "documents": [{"title":"替换为所选钉钉文字文档","url":"https://alidocs.dingtalk.com/i/nodes/REPLACE_WITH_REAL_NODE"}]
+    },
+    {
+      "provider": "wecom",
+      "documents": [{"title":"替换为所选企微文档","url":"https://doc.weixin.qq.com/doc/REPLACE_WITH_REAL_DOC"}]
+    }
+  ]
+}

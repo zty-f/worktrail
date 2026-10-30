@@ -1,0 +1,18 @@
+{
+  "brand": "职迹 WorkTrail",
+  "version": "1.2.2",
+  "rendered_comparison": {
+    "docx/page-*.png": {
+      "previous": 7,
+      "current": 7,
+      "pixel_equal": true
+    },
+    "slide-*.png": {
+      "previous": 11,
+      "current": 11,
+      "pixel_equal": true
+    }
+  },
+  "rebuilt": true,
+  "unit_tests_passed": 79
+}

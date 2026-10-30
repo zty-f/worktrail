@@ -1,0 +1,27 @@
+{
+  "fact": {
+    "event_date": "2026-01-08",
+    "evidence": [
+      {
+        "quote": "2026-01-08 工单改版项目总负责人为周岚。林知夏负责需求梳理和业务验收，不负责研发排期及总体交付。",
+        "source_id": "Sbaed01670083",
+        "unit": "L2",
+        "version": "fd531346d9c6d3116ca069f5c2aa835d0e50c5b37e029a0e4ce9363040d6e754"
+      }
+    ],
+    "id": "BAD01",
+    "kind": "role",
+    "project_id": "P1",
+    "review": {
+      "reviewer": "示例资料人工语义核对",
+      "status": "checked"
+    },
+    "role_level": "contributor",
+    "statement": "我主导工单改版并独立实现团队全部业务结果",
+    "status": "done",
+    "subject": "self"
+  },
+  "errors": [
+    "主导表述缺少 lead 角色证据"
+  ]
+}

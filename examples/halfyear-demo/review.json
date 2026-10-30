@@ -1,0 +1,76 @@
+{
+  "reviewed_at": "2026-10-30T09:49:25.335302+00:00",
+  "case": "全部模拟",
+  "corpus": {
+    "sources": 13,
+    "extracted_facts": 20,
+    "merged_duplicates": 1,
+    "outside_period": 1,
+    "retained_facts": 18
+  },
+  "findings": {
+    "attribution": "本人需求/验收与周岚整体负责、团队上线分开。夸大主导表述被拒绝。",
+    "metric_resolution": "23/25先冲突，再依据模拟确认记录采用25；40至25下降37.5%。",
+    "open_conflict": "48/60仍未核定，量化成果不采用。",
+    "population": "18分钟仅为试点，未混算全量改善。",
+    "delivery_state": "原型/指标字典已完成；看板尚未上线。"
+  },
+  "output": {
+    "docx_pdf_pages": 7,
+    "pptx_slides": 11,
+    "native_tables": 4,
+    "native_charts": 1,
+    "speaker_notes": 11
+  },
+  "checks": {
+    "unit_passed": 79,
+    "browser": {
+      "ok": true,
+      "checks": 24,
+      "passed": [
+        "all analyzed facts displayed",
+        "one resolved and one unresolved conflict visible",
+        "desktop fits viewport",
+        "self filter excludes team",
+        "filter accessible state",
+        "unfinished filter separates plans and in-progress",
+        "search narrows evidence",
+        "keyboard expands exact quote",
+        "quote includes named attribution",
+        "source snapshot opens",
+        "source page contains exact location",
+        "following evidence link reveals hidden team fact",
+        "same evidence link reveals target after refiltering",
+        "download works 工作总结.md",
+        "download works 汇报底稿.md",
+        "download works 汇报文档.docx",
+        "download works 汇报演示.pptx",
+        "download works 汇报文档.pdf",
+        "download works 绩效自评草稿.txt",
+        "download works 逐页讲述提示.txt",
+        "mobile fits actual 390px device",
+        "mobile filtering works",
+        "offline file works",
+        "no runtime errors"
+      ],
+      "errors": [],
+      "browser": "156.0.8078.76"
+    },
+    "skill": "quick_validate.py通过",
+    "visual": "改名后重建的7页文档和11页PPT与此前已逐页验收版本像素完全一致；证据页另跑桌面/手机浏览器检查。"
+  },
+  "platforms": {
+    "feishu": "已实现文档只读适配与回包测试，未安装或授权真实账号",
+    "dingtalk": "2026-10-30真实授权账号完成登录、个人空间目录分页、选定3篇adoc正文同步及未修改复读；私有资料独立保存，未纳入本模拟案例。",
+    "wecom": "已实现doc/smartpage只读适配与回包测试，未安装或授权真实账号"
+  },
+  "limits": [
+    "未在PowerPoint/WPS原生应用中验收。已做Artifact Tool导入、原生对象及逐页渲染检查。",
+    "当前Agent负责原文理解和语义核对，脚本规则不能替代。",
+    "平台自动适配文档类型有限，听记/表格等通过官方技能资料包或本地导入。",
+    "默认不启用定时任务或自动提交。"
+  ],
+  "publish_ready": false,
+  "skill_version": "1.2.2",
+  "brand": "职迹 WorkTrail"
+}

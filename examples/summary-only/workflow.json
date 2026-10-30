@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "mode": "local",
+    "local_folders": [
+      "/Users/zty/Desktop/worktrail/examples/summary-only/materials"
+    ]
+  },
+  "outputs": [
+    "summary"
+  ]
+}

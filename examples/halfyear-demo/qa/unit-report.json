@@ -1,0 +1,7 @@
+{
+  "passed": 79,
+  "failed": 0,
+  "command": "python -m unittest discover -s tests -q",
+  "checked_at": "2026-10-30T08:47:52.858695+00:00",
+  "scope": "范围选择、产出路由、归因/冲突/引文规则、平台回包、脱敏认证诊断；不是飞书/企微真实租户验证"
+}

@@ -1,0 +1,15 @@
+{
+  "nativeText": true,
+  "nativeTables": [
+    2,
+    7,
+    8,
+    11
+  ],
+  "nativeCharts": [
+    4
+  ],
+  "slideCount": 11,
+  "font": "PingFang SC",
+  "applicationTest": "未在PowerPoint/WPS实机中测试；已由Artifact Tool导入和渲染。"
+}

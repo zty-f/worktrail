@@ -1,0 +1,151 @@
+{
+  "version": "1.2.2",
+  "checked_at": "2026-10-30T09:49:25.338074+00:00",
+  "unit_tests_passed": 79,
+  "actual_cases": [
+    {
+      "case": "full",
+      "requested": [
+        "summary",
+        "report",
+        "evidence",
+        "docx",
+        "pdf",
+        "pptx",
+        "self-eval",
+        "speaker-notes"
+      ],
+      "generated": [
+        "summary",
+        "report",
+        "evidence",
+        "docx",
+        "pdf",
+        "pptx",
+        "self-eval",
+        "speaker-notes"
+      ],
+      "output_files": [
+        "analysis.json",
+        "index.html",
+        "manifest.json",
+        "report.json",
+        "sources",
+        "工作总结.md",
+        "待确认事项.json",
+        "成果证据清单.csv",
+        "汇报底稿.md",
+        "汇报文档.docx",
+        "汇报文档.pdf",
+        "汇报演示.pptx",
+        "绩效自评草稿.txt",
+        "逐页讲述提示.txt"
+      ],
+      "verify_passed": true,
+      "actual_export": true
+    },
+    {
+      "case": "summary",
+      "requested": [
+        "summary"
+      ],
+      "generated": [
+        "summary"
+      ],
+      "output_files": [
+        "manifest.json",
+        "工作总结.md"
+      ],
+      "verify_passed": true,
+      "actual_export": true
+    },
+    {
+      "case": "evidence",
+      "requested": [
+        "evidence"
+      ],
+      "generated": [
+        "evidence"
+      ],
+      "output_files": [
+        "analysis.json",
+        "index.html",
+        "manifest.json",
+        "report.json",
+        "sources",
+        "待确认事项.json",
+        "成果证据清单.csv"
+      ],
+      "verify_passed": true,
+      "actual_export": true
+    },
+    {
+      "case": "pdf",
+      "requested": [
+        "pdf"
+      ],
+      "generated": [
+        "pdf"
+      ],
+      "output_files": [
+        "manifest.json",
+        "汇报文档.pdf"
+      ],
+      "verify_passed": true,
+      "actual_export": true
+    },
+    {
+      "case": "pptx",
+      "requested": [
+        "pptx"
+      ],
+      "generated": [
+        "pptx"
+      ],
+      "output_files": [
+        "manifest.json",
+        "汇报演示.pptx"
+      ],
+      "verify_passed": true,
+      "actual_export": true
+    }
+  ],
+  "lightweight_python_no_site_packages": {
+    "creation_and_build_passed": true,
+    "cases": [
+      "summary",
+      "evidence"
+    ],
+    "inputs": "3 fictional Markdown sources; 5 reviewed fictional facts",
+    "method": "Bundled Python -S disables site initialization; standard-library ingest/build succeeds"
+  },
+  "browser": {
+    "full_checks_passed": 24,
+    "evidence_only_checks_passed": 14
+  },
+  "visual": {
+    "full_docx_pages": 7,
+    "full_pptx_slides": 11,
+    "pixel_equal_to_reviewed_version": true,
+    "pdf_only_pages": 4,
+    "pptx_only_slides": 9,
+    "selected_export_contact_sheets_inspected": true,
+    "native_office_application_verified": false
+  },
+  "platforms": {
+    "configuration_and_auth_diagnostics": "isolated tests and official references",
+    "dingtalk": "selected personal-space adoc live access verified in earlier authorized run; private documents not bundled",
+    "feishu": "no live tenant acceptance",
+    "wecom": "no live tenant acceptance"
+  },
+  "limits": [
+    "Complete PDF/PPT export requires target host Codex rendering dependencies; not a universally portable public-package exporter.",
+    "Semantic extraction is performed by the current Agent; fixture facts do not implement automatic understanding."
+  ],
+  "brand": "职迹 WorkTrail",
+  "branding_rebuild": {
+    "full_summary_evidence": true,
+    "office_pixel_match_to_previous_checked_version": true,
+    "pdf_ppt_only_routing": "validated in v1.2.0; routing implementation unchanged"
+  }
+}

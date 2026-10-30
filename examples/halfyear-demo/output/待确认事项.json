@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {
+      "conflict_id": "C0ddb78415fa6",
+      "question": "同口径数值冲突，请提供负责人确认或核对后的明细；当前不选较大值。"
+    }
+  ],
+  "invalid_facts": [],
+  "decision_errors": []
+}

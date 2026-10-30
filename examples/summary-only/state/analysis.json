@@ -1,0 +1,320 @@
+{
+  "schema_version": "1.0",
+  "brief": {
+    "schema_version": "1.0",
+    "person": {
+      "name": "林知夏",
+      "role": "产品经理"
+    },
+    "report_type": "halfyear",
+    "period": {
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "label": "2026年上半年"
+    },
+    "minutes": 5,
+    "disclosure": "轻量模拟案例。人物、项目、数据均为虚构；只演示所选产出，不使用真实企业资料。",
+    "projects": [
+      {
+        "id": "P1",
+        "name": "售后工单改版",
+        "rubric": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "R1",
+        "name": "业务结果"
+      },
+      {
+        "id": "R2",
+        "name": "协作与交付"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "S036a81709398",
+      "provider": "local",
+      "locator": "/Users/zty/Desktop/worktrail/examples/summary-only/materials/01_分工.md",
+      "title": "01_分工.md",
+      "version": "64b7df2b7ad8ea41e9ebd39448c9fac96d6dc063d9d6ef140aeea3c67d4746d7",
+      "active": 1,
+      "fetched": "2026-10-30T09:46:44.800471+00:00",
+      "units": [
+        {
+          "text": "# 项目分工",
+          "unit": "L1"
+        },
+        {
+          "text": "2026-01-08 项目由周岚负责整体推进；林知夏参与需求梳理和业务验收，不负责研发排期及总体交付。",
+          "unit": "L2"
+        }
+      ]
+    },
+    {
+      "id": "S0ed71d2ae83f",
+      "provider": "local",
+      "locator": "/Users/zty/Desktop/worktrail/examples/summary-only/materials/03_指标.md",
+      "title": "03_指标.md",
+      "version": "e527084a680dc7a1ca04c79526a8bb79934dc65fe7be5e73388f7e9df098d575",
+      "active": 1,
+      "fetched": "2026-10-30T09:46:44.801498+00:00",
+      "units": [
+        {
+          "text": "# 同口径指标",
+          "unit": "L1"
+        },
+        {
+          "text": "2026-01-30 全量已结售后工单平均处理时长40分钟，包含退回重开单，窗口为2026-01-01至2026-01-31。",
+          "unit": "L2"
+        },
+        {
+          "text": "2026-06-30 全量已结售后工单平均处理时长25分钟，包含退回重开单，窗口为2026-04-01至2026-06-30。",
+          "unit": "L3"
+        },
+        {
+          "text": "这些是团队前后观察数据，不能据此证明个人独立因果贡献。",
+          "unit": "L4"
+        }
+      ]
+    },
+    {
+      "id": "S28d9bcb74155",
+      "provider": "local",
+      "locator": "/Users/zty/Desktop/worktrail/examples/summary-only/materials/02_交付.md",
+      "title": "02_交付.md",
+      "version": "0b2ce7a8a5776720233d52c72e9e5eea1626cce13568fdca30917581dbe7cc7f",
+      "active": 1,
+      "fetched": "2026-10-30T09:46:44.801022+00:00",
+      "units": [
+        {
+          "text": "# 阶段交付",
+          "unit": "L1"
+        },
+        {
+          "text": "2026-03-20 林知夏完成需求说明与业务验收，整理上线问题清单。",
+          "unit": "L2"
+        },
+        {
+          "text": "2026-03-20 团队完成售后工单改版上线。",
+          "unit": "L3"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "event_date": "2026-01-08",
+      "evidence": [
+        {
+          "quote": "2026-01-08 项目由周岚负责整体推进；林知夏参与需求梳理和业务验收，不负责研发排期及总体交付。",
+          "source_id": "S036a81709398",
+          "unit": "L2",
+          "version": "64b7df2b7ad8ea41e9ebd39448c9fac96d6dc063d9d6ef140aeea3c67d4746d7"
+        }
+      ],
+      "id": "F01",
+      "kind": "role",
+      "project_id": "P1",
+      "review": {
+        "note": "只用于模拟测试；真实资料需由Agent重新理解核对。",
+        "reviewer": "轻量虚构案例预设核对",
+        "status": "checked"
+      },
+      "role_level": "contributor",
+      "statement": "我参与需求梳理与业务验收，周岚负责整体推进",
+      "status": "done",
+      "subject": "self"
+    },
+    {
+      "event_date": "2026-03-20",
+      "evidence": [
+        {
+          "quote": "2026-03-20 林知夏完成需求说明与业务验收，整理上线问题清单。",
+          "source_id": "S28d9bcb74155",
+          "unit": "L2",
+          "version": "0b2ce7a8a5776720233d52c72e9e5eea1626cce13568fdca30917581dbe7cc7f"
+        }
+      ],
+      "id": "F02",
+      "kind": "action",
+      "project_id": "P1",
+      "review": {
+        "note": "只用于模拟测试；真实资料需由Agent重新理解核对。",
+        "reviewer": "轻量虚构案例预设核对",
+        "status": "checked"
+      },
+      "role_level": "contributor",
+      "statement": "我完成需求说明、业务验收与上线问题清单",
+      "status": "done",
+      "subject": "self"
+    },
+    {
+      "event_date": "2026-03-20",
+      "evidence": [
+        {
+          "quote": "2026-03-20 团队完成售后工单改版上线。",
+          "source_id": "S28d9bcb74155",
+          "unit": "L3",
+          "version": "0b2ce7a8a5776720233d52c72e9e5eea1626cce13568fdca30917581dbe7cc7f"
+        }
+      ],
+      "id": "F03",
+      "kind": "outcome",
+      "project_id": "P1",
+      "review": {
+        "note": "只用于模拟测试；真实资料需由Agent重新理解核对。",
+        "reviewer": "轻量虚构案例预设核对",
+        "status": "checked"
+      },
+      "role_level": "contributor",
+      "statement": "团队完成工单改版上线",
+      "status": "done",
+      "subject": "team"
+    },
+    {
+      "event_date": "2026-01-30",
+      "evidence": [
+        {
+          "quote": "2026-01-30 全量已结售后工单平均处理时长40分钟，包含退回重开单，窗口为2026-01-01至2026-01-31。",
+          "source_id": "S0ed71d2ae83f",
+          "unit": "L2",
+          "version": "e527084a680dc7a1ca04c79526a8bb79934dc65fe7be5e73388f7e9df098d575"
+        }
+      ],
+      "id": "M01",
+      "kind": "metric",
+      "metric": {
+        "comparison_id": "ticket-H1",
+        "direction": "lower",
+        "key": "平均处理时长",
+        "population": "全量已结售后工单 含退回重开单",
+        "stage": "baseline",
+        "unit": "分钟",
+        "value": 40,
+        "window": "2026-01-01至2026-01-31"
+      },
+      "project_id": "P1",
+      "review": {
+        "note": "只用于模拟测试；真实资料需由Agent重新理解核对。",
+        "reviewer": "轻量虚构案例预设核对",
+        "status": "checked"
+      },
+      "role_level": "contributor",
+      "statement": "平均处理时长观测记录",
+      "status": "done",
+      "subject": "team"
+    },
+    {
+      "event_date": "2026-06-30",
+      "evidence": [
+        {
+          "quote": "2026-06-30 全量已结售后工单平均处理时长25分钟，包含退回重开单，窗口为2026-04-01至2026-06-30。",
+          "source_id": "S0ed71d2ae83f",
+          "unit": "L3",
+          "version": "e527084a680dc7a1ca04c79526a8bb79934dc65fe7be5e73388f7e9df098d575"
+        }
+      ],
+      "id": "M02",
+      "kind": "metric",
+      "metric": {
+        "comparison_id": "ticket-H1",
+        "direction": "lower",
+        "key": "平均处理时长",
+        "population": "全量已结售后工单 含退回重开单",
+        "stage": "result",
+        "unit": "分钟",
+        "value": 25,
+        "window": "2026-04-01至2026-06-30"
+      },
+      "project_id": "P1",
+      "review": {
+        "note": "只用于模拟测试；真实资料需由Agent重新理解核对。",
+        "reviewer": "轻量虚构案例预设核对",
+        "status": "checked"
+      },
+      "role_level": "contributor",
+      "statement": "平均处理时长观测记录",
+      "status": "done",
+      "subject": "team"
+    }
+  ],
+  "projects": [
+    {
+      "id": "P1",
+      "name": "售后工单改版",
+      "rubric": [
+        "R1",
+        "R2"
+      ],
+      "self_facts": [
+        "F01",
+        "F02"
+      ],
+      "team_facts": [
+        "F03"
+      ],
+      "ongoing_facts": [],
+      "metric_groups": [
+        [
+          "平均处理时长",
+          "分钟",
+          "全量已结售后工单 含退回重开单",
+          "ticket-H1"
+        ]
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "group": [
+        "平均处理时长",
+        "分钟",
+        "全量已结售后工单 含退回重开单",
+        "ticket-H1"
+      ],
+      "fact_ids": [
+        "M01",
+        "M02"
+      ],
+      "status": "usable",
+      "baseline": 40,
+      "result": 25,
+      "change_pct": -37.5,
+      "selected_fact_ids": [
+        "M01",
+        "M02"
+      ],
+      "baseline_window": "2026-01-01至2026-01-31",
+      "result_window": "2026-04-01至2026-06-30",
+      "direction": "lower",
+      "favorable": true
+    }
+  ],
+  "conflicts": [],
+  "invalid_facts": [],
+  "outside_period": [],
+  "undated_facts": [],
+  "duplicates": [],
+  "excluded": {},
+  "decisions": [],
+  "applied_decisions": [],
+  "decision_errors": [],
+  "questions": [],
+  "coverage": {
+    "active_sources": 3,
+    "cited_sources": 3,
+    "months_with_event_evidence": [
+      "2026-01",
+      "2026-03",
+      "2026-06"
+    ],
+    "note": "月份按事件日期统计。检索结果不等于全量个人工作，创建者不等于成果负责人。"
+  },
+  "computed_at": "2026-10-30T09:49:57.370248+00:00",
+  "input_fingerprint": "40c47f07905677b248c839a9a102906b4bcdda9af2b6d84503907c0ac0bc3148"
+}

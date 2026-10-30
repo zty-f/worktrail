@@ -1,0 +1,88 @@
+{
+  "provider": "local",
+  "at": "2026-10-30T09:46:44.718052+00:00",
+  "root": "/Users/zty/Desktop/worktrail/examples/halfyear-demo/materials",
+  "read": [
+    {
+      "file": "01_年初目标.md",
+      "source_id": "Sbaed01670083",
+      "version": "fd531346d9c6d3116ca069f5c2aa835d0e50c5b37e029a0e4ce9363040d6e754",
+      "changed": true
+    },
+    {
+      "file": "02_一月周报.md",
+      "source_id": "S54fd8e02580a",
+      "version": "0762b317497c5218e0604ad7eefb4195a102b496e122d2b6fef027e20db92d9e",
+      "changed": true
+    },
+    {
+      "file": "03_二月周报.md",
+      "source_id": "S3f4659f0225d",
+      "version": "a605d9d906d13bb1150bb3b6ea76c05dfee9f3c524256d97a6cb03555f84cd95",
+      "changed": true
+    },
+    {
+      "file": "04_三月上线复盘.md",
+      "source_id": "S4435fe7d619b",
+      "version": "b09935a7040ef73b171a7579c017a04e3eb6447267ed6bf7c939d8d6735eb8d8",
+      "changed": true
+    },
+    {
+      "file": "05_四月治理记录.md",
+      "source_id": "Sc5322dd05502",
+      "version": "ddcc7f81ceecf5801d3423312eba14cbe26e27e006c8c3c0e31ceb3d99a6ecb7",
+      "changed": true
+    },
+    {
+      "file": "06_五月周报.md",
+      "source_id": "S51ef67ca146e",
+      "version": "4c71b26036fa65bd6b0cf157baf110b8736e1656904e5d8dde652875ec97d615",
+      "changed": true
+    },
+    {
+      "file": "07_六月周报.md",
+      "source_id": "Sc90901316fd6",
+      "version": "0a4b35a4fb04b13b62c4105d7d1599ae389974d54d0bcffe5f7ca2259d7bc963",
+      "changed": true
+    },
+    {
+      "file": "08_七月计划.md",
+      "source_id": "S7d8ac09dad42",
+      "version": "57ce0090299c612e7c16d79a8fd575f0a6b6954162a17f02a89741c98067a588",
+      "changed": true
+    },
+    {
+      "file": "09_指标负责人确认.md",
+      "source_id": "Sd7afc7bc8f0c",
+      "version": "09b7226389b5f8e6601909ca5dd1f3f0ad5e6c2ff076a0f37b7fd9f1e2ac3042",
+      "changed": true
+    },
+    {
+      "file": "10_六月盘点.md",
+      "source_id": "S4b789758c6ab",
+      "version": "c01a61a6d1876e2769abd415be3a721de866bbe4dc6e3035ef441c78f1d0bbe1",
+      "changed": true
+    },
+    {
+      "file": "11_协作反馈.md",
+      "source_id": "S9e6ef94d33e2",
+      "version": "a91835bb8e76d04ccd3eb11ccb93af9cecca24d50c0835031cc0274bf6caa603",
+      "changed": true
+    },
+    {
+      "file": "12_工单指标导出.csv",
+      "source_id": "Sb176a6499f0f",
+      "version": "4a171ff3811f5b44ef8fc6662f2f1457297d68e6138fea3105d4d63e3e25b4d6",
+      "changed": true
+    },
+    {
+      "file": "13_业务验收说明.docx",
+      "source_id": "Sae1ecf206094",
+      "version": "1e2370e375208162bdeee8a16a05a3824a20b1368b5deffaf5453fc926735ec1",
+      "changed": true
+    }
+  ],
+  "failed": [],
+  "unchanged": 0,
+  "complete_for_selected_folder": true
+}

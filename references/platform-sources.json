@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-30",
+  "method": "official README, product references and selected command source; no Feishu/WeCom account installed or authorized during this update",
+  "sources": [
+    {
+      "provider": "feishu",
+      "repository": "https://github.com/larksuite/cli",
+      "revision_checked": "c910e89e97e98a458a051c50dbd36de43a603d30",
+      "references": [
+        "README.zh.md",
+        "skills/lark-shared/references/lark-shared-identity-and-permissions.md",
+        "skills/lark-shared/references/lark-shared-config-init.md",
+        "cmd/auth/status.go",
+        "cmd/auth/login.go",
+        "skills/lark-doc/references/lark-doc-fetch.md",
+        "skills/lark-drive/references/lark-drive-search.md",
+        "skills/lark-drive/references/lark-drive-files-list.md"
+      ],
+      "tenant_validation": "not_performed"
+    },
+    {
+      "provider": "dingtalk",
+      "repository": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+      "revision_checked": "main retrieved 2026-10-30 plus installed v1.0.52 help",
+      "references": [
+        "README_zh.md",
+        "docs/reference.md"
+      ],
+      "tenant_validation": "selected personal-space adoc path verified in prior authorized run; not re-authorized in this update"
+    },
+    {
+      "provider": "wecom",
+      "repository": "https://github.com/WecomTeam/wecom-unified",
+      "revision_checked": "c2947ae194703c06cbfe06444a263d1da094ea78",
+      "references": [
+        "README.md",
+        "skills/wecom-unified/SKILL.md",
+        "skills/wecom-unified/references/wecomcli-doc.md",
+        "skills/wecom-unified/references/wecomcli-doc-manage.md",
+        "skills/wecom-unified/references/wecomcli-smartpage.md"
+      ],
+      "tenant_validation": "not_performed"
+    }
+  ]
+}

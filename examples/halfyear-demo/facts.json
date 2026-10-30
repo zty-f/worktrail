@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "facts": [
+    {
+      "id": "F01",
+      "project_id": "P1",
+      "kind": "role",
+      "subject": "self",
+      "event_date": "2026-01-08",
+      "status": "done",
+      "statement": "我负责需求梳理和业务验收，周岚负责项目整体推进",
+      "evidence": [
+        {
+          "source_id": "Sbaed01670083",
+          "version": "fd531346d9c6d3116ca069f5c2aa835d0e50c5b37e029a0e4ce9363040d6e754",
+          "unit": "L2",
+          "quote": "2026-01-08 工单改版项目总负责人为周岚。林知夏负责需求梳理和业务验收，不负责研发排期及总体交付。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "role_level": "contributor"
+    },
+    {
+      "id": "F02",
+      "project_id": "P1",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-01-26",
+      "status": "done",
+      "statement": "我完成需求说明与异常流程清单",
+      "evidence": [
+        {
+          "source_id": "S54fd8e02580a",
+          "version": "0762b317497c5218e0604ad7eefb4195a102b496e122d2b6fef027e20db92d9e",
+          "unit": "L2",
+          "quote": "2026-01-26 林知夏完成售后工单改版的需求梳理，交付需求说明与异常流程清单。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "dedupe_key": "P1-requirements-20260126"
+    },
+    {
+      "id": "F03",
+      "project_id": "P1",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-01-26",
+      "status": "done",
+      "statement": "我完成需求说明与异常流程清单",
+      "evidence": [
+        {
+          "source_id": "S3f4659f0225d",
+          "version": "a605d9d906d13bb1150bb3b6ea76c05dfee9f3c524256d97a6cb03555f84cd95",
+          "unit": "L2",
+          "quote": "2026-02-06 回顾1月26日交付：林知夏完成售后工单改版的需求梳理，交付需求说明与异常流程清单。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "dedupe_key": "P1-requirements-20260126"
+    },
+    {
+      "id": "F04",
+      "project_id": "P1",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-02-23",
+      "status": "done",
+      "statement": "我组织业务验收用例评审并完成问题归类",
+      "evidence": [
+        {
+          "source_id": "S3f4659f0225d",
+          "version": "a605d9d906d13bb1150bb3b6ea76c05dfee9f3c524256d97a6cb03555f84cd95",
+          "unit": "L3",
+          "quote": "2026-02-23 林知夏组织业务验收用例评审并完成问题归类。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F05",
+      "project_id": "P1",
+      "kind": "outcome",
+      "subject": "team",
+      "event_date": "2026-03-20",
+      "status": "done",
+      "statement": "团队完成售后工单改版上线",
+      "evidence": [
+        {
+          "source_id": "S4435fe7d619b",
+          "version": "b09935a7040ef73b171a7579c017a04e3eb6447267ed6bf7c939d8d6735eb8d8",
+          "unit": "L2",
+          "quote": "2026-03-20 团队完成售后工单改版上线，项目总负责人为周岚，研发由陈砚负责。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F06",
+      "project_id": "P1",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-03-20",
+      "status": "done",
+      "statement": "我完成业务验收并整理上线问题清单",
+      "evidence": [
+        {
+          "source_id": "S4435fe7d619b",
+          "version": "b09935a7040ef73b171a7579c017a04e3eb6447267ed6bf7c939d8d6735eb8d8",
+          "unit": "L3",
+          "quote": "2026-03-20 林知夏完成需求范围内的业务验收并整理上线问题清单。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F07",
+      "project_id": "P1",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2025-12-22",
+      "status": "done",
+      "statement": "我完成上一年度需求盘点",
+      "evidence": [
+        {
+          "source_id": "Sbaed01670083",
+          "version": "fd531346d9c6d3116ca069f5c2aa835d0e50c5b37e029a0e4ce9363040d6e754",
+          "unit": "L4",
+          "quote": "2025-12-22 林知夏完成上一年度需求盘点，此项属于上一报告周期。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "M01",
+      "project_id": "P1",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-01-30",
+      "status": "done",
+      "statement": "平均处理时长观测记录",
+      "evidence": [
+        {
+          "source_id": "S54fd8e02580a",
+          "version": "0762b317497c5218e0604ad7eefb4195a102b496e122d2b6fef027e20db92d9e",
+          "unit": "L3",
+          "quote": "2026-01-30 全量已结售后工单1月基线平均处理时长40分钟，统计包含退回重开工单。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "平均处理时长",
+        "value": 40,
+        "stage": "baseline",
+        "unit": "分钟",
+        "population": "全量已结售后工单",
+        "comparison_id": "H1-ticket",
+        "window": "2026-01-01至2026-01-31",
+        "direction": "lower"
+      }
+    },
+    {
+      "id": "M02",
+      "project_id": "P1",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-06-28",
+      "status": "done",
+      "statement": "平均处理时长观测记录",
+      "evidence": [
+        {
+          "source_id": "Sb176a6499f0f",
+          "version": "4a171ff3811f5b44ef8fc6662f2f1457297d68e6138fea3105d4d63e3e25b4d6",
+          "unit": "R2",
+          "quote": "日期=2026-06-28；项目=P1；指标=平均处理时长；周期=2026-04-01至2026-06-30；群体=全量已结售后工单；数值=23；单位=分钟；备注=旧导出"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "平均处理时长",
+        "value": 23,
+        "stage": "result",
+        "unit": "分钟",
+        "population": "全量已结售后工单",
+        "comparison_id": "H1-ticket",
+        "window": "2026-04-01至2026-06-30",
+        "direction": "lower"
+      }
+    },
+    {
+      "id": "M03",
+      "project_id": "P1",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-06-30",
+      "status": "done",
+      "statement": "平均处理时长观测记录",
+      "evidence": [
+        {
+          "source_id": "Sb176a6499f0f",
+          "version": "4a171ff3811f5b44ef8fc6662f2f1457297d68e6138fea3105d4d63e3e25b4d6",
+          "unit": "R3",
+          "quote": "日期=2026-06-30；项目=P1；指标=平均处理时长；周期=2026-04-01至2026-06-30；群体=全量已结售后工单；数值=25；单位=分钟；备注=包含退回重开工单"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "平均处理时长",
+        "value": 25,
+        "stage": "result",
+        "unit": "分钟",
+        "population": "全量已结售后工单",
+        "comparison_id": "H1-ticket",
+        "window": "2026-04-01至2026-06-30",
+        "direction": "lower"
+      }
+    },
+    {
+      "id": "M04",
+      "project_id": "P1",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-03-25",
+      "status": "done",
+      "statement": "平均处理时长观测记录",
+      "evidence": [
+        {
+          "source_id": "S4435fe7d619b",
+          "version": "b09935a7040ef73b171a7579c017a04e3eb6447267ed6bf7c939d8d6735eb8d8",
+          "unit": "L4",
+          "quote": "2026-03-25 试点组已结售后工单平均处理时长18分钟，仅含5个试点坐席，不代表全量坐席。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "平均处理时长",
+        "value": 18,
+        "stage": "result",
+        "unit": "分钟",
+        "population": "5个试点坐席已结工单",
+        "comparison_id": "H1-ticket",
+        "window": "2026-03-01至2026-03-25",
+        "direction": "lower"
+      }
+    },
+    {
+      "id": "F08",
+      "project_id": "P2",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-04-10",
+      "status": "done",
+      "statement": "我完成分类方案与审核规范，组织试点部门评审",
+      "evidence": [
+        {
+          "source_id": "Sc5322dd05502",
+          "version": "ddcc7f81ceecf5801d3423312eba14cbe26e27e006c8c3c0e31ceb3d99a6ecb7",
+          "unit": "L2",
+          "quote": "2026-04-10 林知夏完成知识库分类方案与审核规范，并组织试点部门评审。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F09",
+      "project_id": "P2",
+      "kind": "outcome",
+      "subject": "team",
+      "event_date": "2026-04-24",
+      "status": "done",
+      "statement": "团队调整知识库检索入口并启动试点",
+      "evidence": [
+        {
+          "source_id": "Sc5322dd05502",
+          "version": "ddcc7f81ceecf5801d3423312eba14cbe26e27e006c8c3c0e31ceb3d99a6ecb7",
+          "unit": "L3",
+          "quote": "2026-04-24 团队完成知识库检索入口调整并启动试点运行。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F10",
+      "project_id": "P2",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-05-29",
+      "status": "done",
+      "statement": "我完成试点反馈归类并输出维护责任清单",
+      "evidence": [
+        {
+          "source_id": "S51ef67ca146e",
+          "version": "4c71b26036fa65bd6b0cf157baf110b8736e1656904e5d8dde652875ec97d615",
+          "unit": "L3",
+          "quote": "2026-05-29 林知夏完成知识库治理试点反馈归类，输出维护责任清单。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "M05",
+      "project_id": "P2",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-06-30",
+      "status": "done",
+      "statement": "已审核有效文档数量观测记录",
+      "evidence": [
+        {
+          "source_id": "Sc90901316fd6",
+          "version": "0a4b35a4fb04b13b62c4105d7d1599ae389974d54d0bcffe5f7ca2259d7bc963",
+          "unit": "L3",
+          "quote": "2026-06-30 周报记载知识库本轮已审核有效文档60篇，范围为试点部门6月末有效文档。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "已审核有效文档数量",
+        "value": 60,
+        "stage": "result",
+        "unit": "篇",
+        "population": "试点部门6月末有效文档",
+        "comparison_id": "H1-wiki",
+        "window": "2026-06-30",
+        "direction": "higher"
+      }
+    },
+    {
+      "id": "M06",
+      "project_id": "P2",
+      "kind": "metric",
+      "subject": "team",
+      "event_date": "2026-06-30",
+      "status": "done",
+      "statement": "已审核有效文档数量观测记录",
+      "evidence": [
+        {
+          "source_id": "S4b789758c6ab",
+          "version": "c01a61a6d1876e2769abd415be3a721de866bbe4dc6e3035ef441c78f1d0bbe1",
+          "unit": "L2",
+          "quote": "2026-06-30 盘点表记载知识库本轮已审核有效文档48篇，范围为试点部门6月末有效文档。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      },
+      "metric": {
+        "key": "已审核有效文档数量",
+        "value": 48,
+        "stage": "result",
+        "unit": "篇",
+        "population": "试点部门6月末有效文档",
+        "comparison_id": "H1-wiki",
+        "window": "2026-06-30",
+        "direction": "higher"
+      }
+    },
+    {
+      "id": "F11",
+      "project_id": "P3",
+      "kind": "action",
+      "subject": "self",
+      "event_date": "2026-05-18",
+      "status": "done",
+      "statement": "我完成渠道数据看板的指标字典和原型评审",
+      "evidence": [
+        {
+          "source_id": "S51ef67ca146e",
+          "version": "4c71b26036fa65bd6b0cf157baf110b8736e1656904e5d8dde652875ec97d615",
+          "unit": "L2",
+          "quote": "2026-05-18 林知夏完成渠道数据看板的指标字典和原型评审，尚未进入研发。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F12",
+      "project_id": "P3",
+      "kind": "outcome",
+      "subject": "team",
+      "event_date": "2026-06-26",
+      "status": "in_progress",
+      "statement": "看板等待研发排期，尚未上线",
+      "evidence": [
+        {
+          "source_id": "Sc90901316fd6",
+          "version": "0a4b35a4fb04b13b62c4105d7d1599ae389974d54d0bcffe5f7ca2259d7bc963",
+          "unit": "L2",
+          "quote": "2026-06-26 渠道数据看板仍在等待研发排期，尚未上线，不具备上线后业务结果。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F13",
+      "project_id": "P3",
+      "kind": "plan",
+      "subject": "self",
+      "event_date": "2026-06-30",
+      "status": "planned",
+      "statement": "下半年推动看板进入研发排期，具体时间与研发负责人确认",
+      "evidence": [
+        {
+          "source_id": "S7d8ac09dad42",
+          "version": "57ce0090299c612e7c16d79a8fd575f0a6b6954162a17f02a89741c98067a588",
+          "unit": "L2",
+          "quote": "2026-06-30 林知夏拟在下半年推动渠道数据看板进入研发排期，排期和上线时间需与研发负责人确认。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    },
+    {
+      "id": "F14",
+      "project_id": "P2",
+      "kind": "plan",
+      "subject": "self",
+      "event_date": "2026-06-30",
+      "status": "planned",
+      "statement": "建立工单指标每月核对机制，并核验知识库有效文档数量",
+      "evidence": [
+        {
+          "source_id": "S7d8ac09dad42",
+          "version": "57ce0090299c612e7c16d79a8fd575f0a6b6954162a17f02a89741c98067a588",
+          "unit": "L3",
+          "quote": "2026-06-30 林知夏拟建立工单指标每月口径核对机制，并完成知识库有效文档数量核验。"
+        }
+      ],
+      "review": {
+        "status": "checked",
+        "reviewer": "示例资料人工语义核对"
+      }
+    }
+  ]
+}

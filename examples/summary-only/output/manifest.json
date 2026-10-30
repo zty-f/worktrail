@@ -1,0 +1,18 @@
+{
+  "input_fingerprint": "40c47f07905677b248c839a9a102906b4bcdda9af2b6d84503907c0ac0bc3148",
+  "workflow_hash": "375f1e6c62a155133fe110d2616561251a011718a511ceaf878f54b25ce03527",
+  "requested_outputs": [
+    "summary"
+  ],
+  "generated_outputs": [
+    "summary"
+  ],
+  "recipe_hash": "96a905c142a1732caabfc04c2e17f9c4642dcf1d1da7903c0ad62d3c68f0f583",
+  "built_at": "2026-10-30T09:46:51.661472+00:00",
+  "complete_ppt": false,
+  "report_type": "halfyear",
+  "files": {
+    "工作总结.md": "89f767b7bb2d53f57aa4e7660c83bc1604b04eed51cff7482a922ae77bd01385"
+  },
+  "publish_ready": false
+}

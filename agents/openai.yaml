@@ -1,0 +1,4 @@
+interface:
+  display_name: "职迹 WorkTrail"
+  short_description: "选择本地或授权平台资料，按需总结工作与成效，核对证据并导出所选报告格式"
+  default_prompt: "使用 $worktrail，先沿用或确认我的资料来源与所需产出，整理工作内容和成效并核对证据；没有另选格式时只生成工作总结。"

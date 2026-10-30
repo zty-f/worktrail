@@ -1,0 +1,21 @@
+name: Feature request / 功能建议
+description: Explain a workplace scenario and the result you need / 说明场景与所需结果
+title: "[Feature] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario and current difficulty / 场景与现有困难
+    validations:
+      required: true
+  - type: textarea
+    id: inputs_outputs
+    attributes:
+      label: Input and desired output / 输入与期望产出
+      description: Use fictional examples; do not upload workplace files / 用虚构样例，不要上传公司资料
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and limits / 替代办法与限制

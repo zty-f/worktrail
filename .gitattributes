@@ -1,0 +1,10 @@
+# Preserve byte-exact evidence, output manifests and bundled assets.
+* -text
+*.py text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.command text eol=lf
+examples/** -text
+assets/** -text

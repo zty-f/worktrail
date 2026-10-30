@@ -1,0 +1,32 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem using fictional, sanitized input / 使用虚构资料复现
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach credentials, private links, real documents or workspaces. Security issues follow SECURITY.md. 不要上传凭据、私有链接、真实资料或工作区。"
+  - type: input
+    id: version
+    attributes:
+      label: Release and environment / 版本与环境
+      description: Skill release, OS, Python, relevant CLI version / Skill、系统、Python及对应CLI版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and selected options / 步骤与选项
+      description: Source, outputs and minimal fictional reproduction / 来源、产出及最小虚构复现
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior / 预期与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics / 脱敏诊断
+      description: Error category or doctor summary; never full auth JSON / 错误类别或doctor摘要，勿贴完整登录回包

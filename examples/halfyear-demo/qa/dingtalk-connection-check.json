@@ -1,0 +1,26 @@
+{
+  "cli_version": "v1.0.52",
+  "authenticated": true,
+  "status": "live_selected_adoc_verified",
+  "read_commands_verified": [
+    "wiki space list",
+    "drive list",
+    "drive search",
+    "doc read"
+  ],
+  "business_documents_read": 3,
+  "adapter_fixes": [
+    "success/body envelope",
+    "nested errors",
+    "unknown search shape fails closed",
+    "fileId/docUrl fields",
+    "signed attachment query normalization",
+    "explicit unknown event dates and evidence review mode"
+  ],
+  "note": "Historical validation snapshot only. No account identity, real document body, OAuth link or credentials are included in this project.",
+  "verified_at": "2026-10-30",
+  "unchanged_reread": {
+    "documents": 3,
+    "new_versions": 0
+  }
+}

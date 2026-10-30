@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "checks": 14,
+  "passed": [
+    "offline evidence-only page opens",
+    "no unrequested downloads",
+    "no nonexistent Office links",
+    "desktop fits viewport",
+    "personal filter works",
+    "source link clears incompatible filter",
+    "search finds selected record",
+    "keyboard opens exact quotation",
+    "quote equals ledger",
+    "source snapshot contains exact unit",
+    "source snapshot contains current hash",
+    "mobile fits viewport",
+    "mobile filtering works",
+    "no runtime errors"
+  ],
+  "errors": []
+}

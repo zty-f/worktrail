@@ -1,0 +1,25 @@
+{
+  "input_fingerprint": "168114c14c8525d2ffb4f31bac9405265cd36eb7ac0feb714906ab93a2dc3ff4",
+  "workflow_hash": "a5214ae1b8b3f36919b1c32f0a04756528c1520b40e4b1c9c4b7d22adec485ed",
+  "requested_outputs": [
+    "evidence"
+  ],
+  "generated_outputs": [
+    "evidence"
+  ],
+  "recipe_hash": "96a905c142a1732caabfc04c2e17f9c4642dcf1d1da7903c0ad62d3c68f0f583",
+  "built_at": "2026-10-30T09:46:51.666568+00:00",
+  "complete_ppt": false,
+  "report_type": "halfyear",
+  "files": {
+    "index.html": "652eab9152d8852aff9a9fc8462c0605290c9eb86b35ca57f381f98f7f197ce9",
+    "report.json": "38e24ed8a974210fcb016789adce4ce0d4a96ce3ff05b1b49d09c380edc91382",
+    "成果证据清单.csv": "c8337468b98ee4109b658af844f9274f70c01e3359818f426083cef1ff75373f",
+    "待确认事项.json": "222a41c6d2fefe8e086f9338dbb80ed64a72d2cad1058d076c5fb0f6f5aa61f2",
+    "analysis.json": "309c3ce1ded65e67fe1aa15f00e03a04e9f3fc5d60bedd9e5b69be3d614a62ca",
+    "sources/S3f2d51393abe.html": "80d49cb60b5ddd006942c651d0aa72264c8773268d10bd36164eaf9d865e460d",
+    "sources/S30fd29694516.html": "dabb18d048dae7de757ad160fb9bddacd9b6e4fc84cfab8239723cc21df97139",
+    "sources/S3dd4f6347e81.html": "74caa3eab63047475c46107f56833092933beb6a0a669486b642b62c7a19de21"
+  },
+  "publish_ready": false
+}

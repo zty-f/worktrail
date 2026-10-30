@@ -1,0 +1,16 @@
+{
+  "id": "D01",
+  "type": "metric_resolution",
+  "conflict_id": "Cbbd447f81df8",
+  "selected_fact_id": "M03",
+  "reason": "采用模拟数据负责人确认的包含退回重开工单口径；23为已停用旧口径，原始记录保留。",
+  "reviewer": "模拟数据负责人沈禾",
+  "evidence": [
+    {
+      "source_id": "Sd7afc7bc8f0c",
+      "version": "09b7226389b5f8e6601909ca5dd1f3f0ad5e6c2ff076a0f37b7fd9f1e2ac3042",
+      "unit": "L2",
+      "quote": "2026-06-30 数据负责人沈禾确认：全量已结售后工单4至6月平均处理时长采用25分钟，包含退回重开工单；23分钟为旧导出中过滤退回重开工单的错误口径，应停用。"
+    }
+  ]
+}

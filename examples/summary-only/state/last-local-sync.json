@@ -1,0 +1,28 @@
+{
+  "provider": "local",
+  "at": "2026-10-30T09:46:44.799813+00:00",
+  "root": "/Users/zty/Desktop/worktrail/examples/summary-only/materials",
+  "read": [
+    {
+      "file": "01_分工.md",
+      "source_id": "S036a81709398",
+      "version": "64b7df2b7ad8ea41e9ebd39448c9fac96d6dc063d9d6ef140aeea3c67d4746d7",
+      "changed": true
+    },
+    {
+      "file": "02_交付.md",
+      "source_id": "S28d9bcb74155",
+      "version": "0b2ce7a8a5776720233d52c72e9e5eea1626cce13568fdca30917581dbe7cc7f",
+      "changed": true
+    },
+    {
+      "file": "03_指标.md",
+      "source_id": "S0ed71d2ae83f",
+      "version": "e527084a680dc7a1ca04c79526a8bb79934dc65fe7be5e73388f7e9df098d575",
+      "changed": true
+    }
+  ],
+  "failed": [],
+  "unchanged": 0,
+  "complete_for_selected_folder": true
+}
