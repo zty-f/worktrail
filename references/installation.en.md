@@ -2,9 +2,25 @@
 
 [English README](../README.en.md) · [中文完整版](installation.md) · [Platform setup](platform-setup.en.md)
 
-## 1. Keep the project intact
+## 1. Install from GitHub or use the archive
 
-Extract the package and keep the entire `worktrail` directory. Give it to an Agent that can read files and run Python, either through the host's supported Skill installation mechanism or by asking the Agent to read its `SKILL.md` directly. There is no standalone GUI or background service to start.
+Send this prompt to an Agent that supports Agent Skills and let it follow its own installation procedure:
+
+```text
+Please install the Skill from this GitHub repository: https://github.com/zty-f/worktrail.
+The Skill is in the repository root and is named worktrail. Follow your Agent's installation procedure and include all supporting files.
+```
+
+Once installed and recognized:
+
+```text
+Please use the worktrail Skill to organize the work records in the folder I specify.
+I only need a summary of work content and observed results, with evidence and open questions. Do not generate a PPT.
+```
+
+Then provide the actual folder path, your role and the relevant period. If the Skill is not recognized, follow your Agent's instructions to refresh its list, start a new session or restart.
+
+Alternatively, extract the package and keep the entire `worktrail` directory. Give it to an Agent that can read files and run Python, either through the host's supported Skill installation mechanism or by asking the Agent to read its `SKILL.md` directly. There is no standalone GUI or background service to start.
 
 Tell the Agent which folders/platform you want and which output you need. If output is unspecified, use `summary`. Do not install all three platform CLIs for local input.
 

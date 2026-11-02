@@ -2,9 +2,25 @@
 
 本Skill供能读取文件、执行Python脚本的AI Agent使用。单独下载文件夹不会启动一个后台应用，也不会自行调用模型。默认只生成工作内容与成效总结；PDF和PPT是用户另选的产出。
 
-## 1 解压和交给Agent
+## 1 通过GitHub链接安装或解压使用
 
-解压桌面压缩包，保持worktrail目录完整，不要只复制SKILL.md。可以把整目录放进目标Agent支持的skills目录，也可以直接要求Agent读取此目录的SKILL.md；无需为了试用改全局配置。
+将下面的话发送给支持Agent Skills的Agent，让它按自身的安装方式处理：
+
+```text
+请安装这个GitHub仓库中的Skill：https://github.com/zty-f/worktrail。
+Skill在仓库根目录，名称为worktrail，请按你当前Agent的安装方式完整安装全部配套文件。
+```
+
+安装完成并识别后可直接说：
+
+```text
+请使用worktrail Skill，整理我指定文件夹里的工作资料。
+只需要工作内容与成效总结，保留依据和待确认项，不生成PPT。
+```
+
+随后提供实际资料路径、本人分工和时间范围。若未识别新Skill，按当前Agent的说明刷新列表、新建会话或重启。
+
+也可以解压项目压缩包，保持worktrail目录完整，不要只复制SKILL.md。可以把整目录放进目标Agent支持的skills目录，也可以直接要求Agent读取此目录的SKILL.md；无需为了试用改全局配置。
 
 首次可以这样说：
 

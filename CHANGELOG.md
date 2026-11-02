@@ -6,7 +6,7 @@
 - 增加真实仓库、贡献和私密漏洞报告入口。Add actual repository, contribution and private-report links.
 - 固定Git换行规则，CI核验克隆后的完整/轻量随包示例。Preserve byte-exact fixtures and verify bundled examples after checkout in CI.
 - PRS_*运行时环境变量继续兼容，避免破坏已有本地配置。Retain PRS_* runtime environment compatibility.
-- 中英文README新增“GitHub链接安装 → 下一轮调用”的Codex快速开始。Add copyable Codex installation and first-use prompts to both READMEs.
+- 中英文README提供“GitHub链接安装 → 开始使用”的通用Agent话术，由对应Agent按自身机制安装，无需指定专属安装器。Provide generic Agent installation/first-use prompts in both READMEs, without requiring an Agent-specific installer.
 - 首次GitHub Release提供完整项目压缩包、中英文安装说明、更新记录及SHA-256校验文件。The first GitHub Release provides the full project archive, Chinese/English installation guides, changelog and SHA-256 checksums.
 
 ## 1.2.1 — 2026-10-30
