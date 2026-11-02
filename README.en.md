@@ -8,7 +8,33 @@ This is an Agent Skill with CLI helpers for half-year reviews, annual reviews, p
 
 This independent open-source project is not affiliated with worktrail.app, worktrail.net or other products sharing the name.
 
-**Contents:** [Preview](#preview) · [Features](#features) · [Quick start](#quick-start) · [Requirements](#requirements) · [Platform access](#platform-access) · [How it works](#how-it-works) · [Examples and validation](#examples-and-validation) · [Limits and roadmap](#limits-and-roadmap) · [Contributing and license](#contributing-and-license)
+**Contents:** [Quick start](#quick-start-codex) · [Preview](#preview) · [Features](#features) · [Command-line workflow](#command-line-workflow) · [Requirements](#requirements) · [Platform access](#platform-access) · [How it works](#how-it-works) · [Examples and validation](#examples-and-validation) · [Limits and roadmap](#limits-and-roadmap) · [Contributing and license](#contributing-and-license)
+
+## Quick start (Codex)
+
+### 1. Install the Skill
+
+Send this prompt to Codex. It is a chat instruction, not a terminal command:
+
+```text
+Use $skill-installer to install https://github.com/zty-f/worktrail.
+The Skill is in the repository root. Install it as worktrail and include all supporting files.
+```
+
+Keep the scripts, references, assets, examples and other supporting directories. Installing SKILL.md alone is insufficient.
+
+### 2. Use it on your next turn
+
+After installation, send this in the next conversation turn:
+
+```text
+Use $worktrail to organize the work records in the folder I specify.
+I only need a summary of work content and observed results, with evidence and open questions. Do not generate a PPT.
+```
+
+Then provide the actual local folder path, your role and the relevant time period as needed. If Codex does not discover the new Skill, restart it and try again; see the [official installation guidance](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use).
+
+Local MD/TXT/CSV input and lightweight summaries require Python >=3.10. Install a provider CLI and authorize your own account only when selecting platform sources; check [requirements](#requirements) when selecting PDF/PPT. For manual script execution, see the [command-line workflow](#command-line-workflow).
 
 ## Preview
 
@@ -38,7 +64,7 @@ Download the project and open [the evidence HTML](examples/halfyear-demo/output/
 | `speaker-notes` | Slide-by-slide speaking notes; no PPT export is implied |
 | `all` | All formats, only when explicitly selected |
 
-## Quick start
+## Command-line workflow
 
 Download the complete project or clone the repository:
 
