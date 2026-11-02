@@ -2,9 +2,9 @@
 
 [简体中文](README.md) | **English** · Version **1.2.2** · Python **>=3.10** · [MIT](LICENSE)
 
-Turn selected workplace records into evidence-backed summaries of your work, contributions and observed results. Export a report, evidence explorer, self-evaluation, Word, PDF or editable PowerPoint only when requested. Sources can be local folders, Feishu/Lark, DingTalk, WeCom or a selected combination. **The default output is a work summary.**
+A Skill for work summaries, annual summaries, year-end reports, personal annual work reports, mid-year presentations, probation reports and performance self-evaluation/review preparation. Turn local files or selected authorized DingTalk, WeCom (Enterprise WeChat) and Feishu/Lark records into evidence-backed accounts of your work, contributions and observed results. Export a report, evidence explorer, self-evaluation, Word, PDF or editable PowerPoint only when requested. **The default output is a work summary.**
 
-This is an Agent Skill with CLI helpers for half-year reviews, annual reviews, probation reports and project retrospectives. You supply an AI Agent that can read files and execute Python. Downloading the folder alone does not analyze new documents. [Repository](https://github.com/zty-f/worktrail) · [CI runs](https://github.com/zty-f/worktrail/actions/workflows/ci.yml).
+This Agent Skill includes CLI helpers for source collection, evidence checks and selected exports, and can also support project retrospectives. You supply an AI Agent that can read files and execute Python. Downloading the folder alone does not analyze new documents. [Repository](https://github.com/zty-f/worktrail) · [CI runs](https://github.com/zty-f/worktrail/actions/workflows/ci.yml).
 
 This independent open-source project is not affiliated with worktrail.app, worktrail.net or other products sharing the name.
 

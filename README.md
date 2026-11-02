@@ -2,11 +2,11 @@
 
 **简体中文** | [English](README.en.md) · 版本 **1.2.2** · Python **>=3.10** · [MIT](LICENSE)
 
-把本人工作资料整理成有来源的工作内容、成果与成效总结；需要时再生成述职文档、证据页、自评或可编辑PPT。支持本地文件夹、飞书、钉钉、企业微信以及混合资料。默认只做工作总结，不自动生成整套文件。
+面向工作总结、年度总结、年终报告、个人年报、半年汇报、转正报告，以及绩效自评和绩效评估材料准备的Skill。支持从本地文件夹或授权的钉钉、企微（企业微信）、飞书资料整理工作内容、成果与成效，核对成果归因、数据冲突和证据，按需生成汇报文档、证据页、自评或可编辑PPT。默认只做工作总结，不自动生成整套文件。
 
 **可将下面[快速开始](#快速开始)中的话术发送给支持Agent Skills的Agent，让它按自身的安装方式处理。** 详细配置见[安装与首次使用](references/installation.md)，不需要先安装三家平台。只查看示例可双击「打开半年汇报示例.html」。
 
-本项目面向半年/年度总结、转正述职、绩效自评准备和项目复盘，适合希望先核实工作事实、再决定呈现格式的职场人员。它是Skill与CLI工具包，使用者需要自己的AI Agent；单独下载不会自动理解文件。[项目仓库](https://github.com/zty-f/worktrail) · [CI运行记录](https://github.com/zty-f/worktrail/actions/workflows/ci.yml)。
+适合希望先核实工作事实、再决定呈现格式的职场人员，也可用于项目复盘。它是Skill与CLI工具包，使用者需要自己的AI Agent；单独下载不会自动理解文件。[项目仓库](https://github.com/zty-f/worktrail) · [CI运行记录](https://github.com/zty-f/worktrail/actions/workflows/ci.yml)。
 
 这是独立开源项目，与worktrail.app、worktrail.net及其他同名产品无关联。
 
